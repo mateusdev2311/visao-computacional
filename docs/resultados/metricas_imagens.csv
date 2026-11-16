@@ -1,0 +1,31 @@
+imagem,categoria,descricao,confianca,metodo,tempo_ms,classe,iou,erro_canto_px,erro_canto_pct
+facil_01.jpg,facil,"fundo escuro, documento a4",0.935,bordas,29.7664,VP,0.9991,0.2785,0.0174
+facil_02.jpg,facil,"fundo madeira, documento a4",0.888,bordas,34.0071,VP,0.9985,0.3025,0.0189
+facil_03.jpg,facil,"fundo escuro, documento recibo",0.887,bordas,47.2311,VP,0.9994,0.1502,0.0094
+facil_04.jpg,facil,"fundo madeira, documento cartao",0.897,bordas,18.4604,VP,0.9994,0.1459,0.0091
+facil_05.jpg,facil,"fundo escuro, documento a4",0.98,bordas,25.0973,VP,0.999,0.3241,0.0203
+facil_06.jpg,facil,"fundo madeira, documento a4",0.905,bordas,21.2064,VP,0.9988,0.2646,0.0165
+facil_07.jpg,facil,"fundo escuro, documento recibo",0.947,bordas,17.5442,VP,0.9993,0.2434,0.0152
+facil_08.jpg,facil,"fundo madeira, documento cartao",0.931,bordas,24.1692,VP,0.9995,0.1575,0.0098
+facil_09.jpg,facil,"fundo escuro, documento a4",0.908,bordas,18.8273,VP,0.9991,0.2202,0.0138
+facil_10.jpg,facil,"fundo madeira, documento a4",0.915,bordas,38.9014,VP,0.9992,0.2943,0.0184
+facil_11.jpg,facil,"fundo escuro, documento recibo",0.872,bordas,14.3821,VP,0.958,9.691,0.6057
+facil_12.jpg,facil,"fundo madeira, documento cartao",0.953,bordas,26.2521,VP,0.9992,0.2455,0.0153
+medio_01.jpg,medio,"fundo com objetos/iluminacao irregular, a4",0.956,limiar,38.1054,VP,0.9992,0.2084,0.013
+medio_02.jpg,medio,"fundo com objetos/iluminacao irregular, recibo",0.864,limiar,33.0596,VP,0.9985,0.3883,0.0243
+medio_03.jpg,medio,"fundo com objetos/iluminacao irregular, a4",0.893,limiar,29.0081,VP,0.9989,0.3457,0.0216
+medio_04.jpg,medio,"fundo com objetos/iluminacao irregular, cartao",0.884,bordas,30.7059,VP,0.9993,0.1684,0.0105
+medio_05.jpg,medio,"fundo com objetos/iluminacao irregular, a4",0.905,bordas,30.2477,VP,0.9985,0.374,0.0234
+medio_06.jpg,medio,"fundo com objetos/iluminacao irregular, recibo",0.844,limiar,24.8495,VP,0.9937,2.2228,0.1389
+medio_07.jpg,medio,"fundo com objetos/iluminacao irregular, a4",0.884,bordas,33.4074,VP,0.9983,0.3463,0.0216
+medio_08.jpg,medio,"fundo com objetos/iluminacao irregular, cartao",0.973,bordas,26.3752,VP,0.9991,0.3048,0.0191
+dificil_01_baixo_contraste.jpg,dificil,"fundo claro quase da cor do papel, sem sombra",0.884,bordas,25.3102,VP,0.999,0.3905,0.0244
+dificil_02_canto_ocluido.jpg,dificil,objeto cobrindo o canto superior direito,0.692,limiar,28.3214,VP,0.9311,17.0785,1.0674
+dificil_03_tremida.jpg,dificil,borrao de movimento forte,0.838,bordas,26.3061,VP,0.9558,10.8763,0.6798
+dificil_04_cortado.jpg,dificil,documento parcialmente fora da foto,0.632,limiar,21.0022,VP_impreciso,0.8347,68.7412,4.2963
+dificil_05_sombra_forte.jpg,dificil,iluminacao muito irregular e ruido alto,0.943,bordas,79.4953,VP,0.9993,0.3231,0.0202
+dificil_06_pequeno.jpg,dificil,documento ocupa menos de 10% da foto,0.0,-,42.2596,FN,0.0,,
+negativo_01.jpg,negativo,"sem documento, fundo baguncado",0.169,limiar,34.0067,VN,,,
+negativo_02.jpg,negativo,"sem documento, fundo madeira",0.0,-,50.8621,VN,,,
+negativo_03.jpg,negativo,"sem documento, fundo escuro",0.123,limiar,64.0048,VN,,,
+negativo_04.jpg,negativo,"sem documento, fundo baguncado",0.0,-,18.3681,VN,,,

@@ -1,0 +1,5 @@
+alfa,quadros,taxa_deteccao,quadros_persistidos,erro_canto_medio_px,tremor_medio_px,tempo_medio_ms,fps_processamento
+1.0,150,1.0,9,3.3182,2.4112,27.7712,36.0086
+0.7,150,1.0,9,5.5221,2.0537,29.4342,33.9741
+0.5,150,1.0,9,8.5401,1.9109,28.7129,34.8276
+0.3,150,1.0,9,14.6906,1.9319,28.1792,35.4872
